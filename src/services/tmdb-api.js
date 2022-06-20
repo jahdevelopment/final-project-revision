@@ -59,5 +59,4 @@ export const getProvidersList = async (provider_id) => {
   const provedors = response;
   return provedors;
 };
-console.log(getShowDetails(60574));
-console.log(getProvidersList());
+

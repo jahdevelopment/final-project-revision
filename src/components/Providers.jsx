@@ -7,7 +7,7 @@ const ProvidersPage = ({ providers, watchList }) => {
 
   const [providersList, setProvidersList] = useState();
 
-console.log(getProvidersList());
+
   
   useEffect(() => {
     getProvidersList(provider_id).then((provedors) => setProvidersList(provedors));
